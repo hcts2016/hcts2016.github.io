@@ -1671,3 +1671,9 @@
 	br.clear {
 		clear: both;
 	}
+
+/* Sections/Article */
+
+	section, article {
+		margin-bottom: 3em;
+	}
