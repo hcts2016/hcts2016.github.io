@@ -1687,3 +1687,10 @@
 		.row > section, .row > article {
 			margin-bottom: 0;
 		}
+
+/* Image */
+
+	.image {
+		display: inline-block;
+		border: 0;
+	}
