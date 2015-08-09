@@ -1556,7 +1556,7 @@
 		body.is-loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
-			-ms-transition: none ~important;
+			-ms-transition: none !important;
 			transition: none !important;
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -1588,8 +1588,8 @@
 		}
 
 	h2 {
-			font-size: 2em;
-			letter-spacing: -1px;
+		font-size: 2em;
+		letter-spacing: -1px;
 	}
 
 		h2.alt {
@@ -1638,7 +1638,7 @@
 
 		a:hover {
 			color: #E27689;
-			border-bottom-color: rgba (255, 255, 255, 0);
+			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 	sub {
@@ -1749,11 +1749,11 @@
 		}
 
 	ul.icons {
-		cursor: default:;
+		cursor: default;
 	}
 
 		ul.icons li {
-				display: inline-block;
+			display: inline-block;
 		}
 
 		ul.icons a {
@@ -1765,20 +1765,20 @@
 			border: 0;
 		}
 
-		ol.default {
-			list-style: decimal;
-			padding-left: 1.25em;
+	ol.default {
+		list-style: decimal;
+		padding-left: 1.25em;
+	}
+
+		ol.default li {
+			padding-left: 0.25em;
 		}
 
-			ol.default li {
-				padding-left: 0.25em;
-			}
-
 /* Form */
-	
+
 	form label {
 		display: block;
-		text-align: center;
+		text-align: left;
 		margin-bottom: 0.5em;
 	}
 
@@ -1800,7 +1800,7 @@
 		box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
 		border: solid 1px rgba(0, 0, 0, 0.15);
 		-moz-transition: all 0.35s ease-in-out;
-		-webkit-transition: all 0.35s ease-in-out
+		-webkit-transition: all 0.35s ease-in-out;
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out;
 	}
@@ -1830,7 +1830,7 @@
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 ~Important;
+		color: #555 !important;
 	}
 
 	form :-moz-placeholder {
@@ -1893,26 +1893,26 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		border-radius: 0..35em;
+		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;
-		padding: .75em 2.5em 0.75em 2.5em;
+		padding: 0.75em 2.5em 0.75em 2.5em;
 		background-color: #8ebebc;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba (0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		-moz-transition: background-color 0.35s ease-in-out;
-		-webkit transition: background-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
 	}
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
-		input[type="reset"]:hober,
+		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
 			background-color: #9ececc;
@@ -1929,7 +1929,7 @@
 /* Item */
 
 	.item {
-		box-shadow: 0 0.5em 0.15em 0 rgba(0, 0, 0, 0.05);
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
 
@@ -1981,7 +1981,7 @@
 	}
 
 		#header .top {
-			position: absolute:
+			position: absolute;
 			left: 0;
 			top: 0;
 			width: 100%;
@@ -2028,7 +2028,7 @@
 		}
 
 		#logo p {
-			position: position: relative;
+			position: relative;
 			display: block;
 			font-size: 0.6em;
 			color: rgba(255, 255, 255, 0.5);
@@ -2072,11 +2072,11 @@
 
 		#nav ul li a.active {
 			background: rgba(0, 0, 0, 0.15);
-			box-shadow: inset 0 0 0.25em 0 rgba (0, 0, 0, 0.125);
+			box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			color: #fff;
 		}
 
-			#nac ul li a.active span:before {
+			#nav ul li a.active span:before {
 				color: #e27689;
 			}
 
@@ -2136,6 +2136,7 @@
 
 				#main > section.dark strong {
 					color: #fff;
+					border-color: inherit;
 				}
 
 				#main > section.dark a {
