@@ -2166,16 +2166,20 @@
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #F9FEFE;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #ECF1F1;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #E3E8E8;
 			}
+
+            #main > section.five {
+                background-color: #DEE3E3 ;   
+            }
 
 /* Wide */
 
