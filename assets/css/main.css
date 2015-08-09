@@ -1546,7 +1546,7 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans pro', sans-serif;
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -1622,7 +1622,7 @@
 	}
 
 	em, i {
-		font-style: italics;
+		font-style: italic;
 	}
 
 	a {
@@ -1706,7 +1706,7 @@
 			background: #f00;
 		}
 
-			.image.avatar49 img {
+			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
 			}
